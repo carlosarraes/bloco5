@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <title>Meme Generator</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><h4>Voltar</h4></a>
+      <input
+        type="text"
+        name="text-input"
+        id="text-input"
+        maxlength="60"
+        placeholder="Digite o meme..."
+      />
+      <input
+        type="file"
+        name="meme-insert"
+        id="meme-insert"
+        accept="image/png, image/jpeg"
+      />
+    </header>
+    <div id="meme-image-container">
+      <img id="meme-image" src="" alt="" />
+      <h1 id="meme-text"></h1>
+    </div>
+    <section>
+      <button id="fire">Fire</button>
+      <button id="water">Water</button>
+      <button id="earth">Earth</button>
+    </section>
+    <section class="mini-memes">
+      <img src="imgs/meme1.png" id="meme-1" alt="" />
+      <img src="imgs/meme2.png" id="meme-2" alt="" />
+      <img src="imgs/meme3.png" id="meme-3" alt="" />
+      <img src="imgs/meme4.png" id="meme-4" alt="" />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/fe6c3da6ce.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><h4>Voltar</h4></a>
+      <h1 id="title"">Minha Lista de Tarefas</h1>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    </header>
+    <main>
+      <input type="text" name="texto-tarefa" id="texto-tarefa">
+      <button id="criar-tarefa">Adicionar</button>
+      <button id="mover-cima"><i class="fa-solid fa-arrow-up"></i></button>
+      <button id="mover-baixo"><i class="fa-solid fa-arrow-down"></i></button>
+      <ol id="lista-tarefas">
+
+      </ol>
+        <section class="btns">
+
+        <button id="apaga-tudo">Limpar</button>
+        <button id="remover-finalizados">Remove Finalizados</button>
+        <button id="salvar-tarefas">Salvar</button>
+        <button id="remover-selecionado">Remover selecionado</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

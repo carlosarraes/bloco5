@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 40%;
+  height: 100vh;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #16161a;
+  color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-left: 14%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.sq {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+#color-palette {
+  width: 200px;
+  height: 40px;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.color {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#pixel-board {
+  width: 90%;
+  height: 100%;
+  display: grid;
+  padding-left: 6px;
+  padding-top: 6px;
+  grid-template-columns: repeat(5, 40px);
+  grid-template-rows: repeat(5, 40px);
+  justify-content: center;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  display: inline-block;
+}
+
+#clear-board {
+  margin-bottom: 10px;
+}
+
+header,
+section,
+main {
+  width: 100%;
+}
+
+.btns {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+button {
+  padding: 3px 5px;
+  background-color: #16161a;
+  color: ghostwhite;
+  border-color: #2cb67d;
+  transition: all 0.3s ease;
+}
+
+.left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button:hover {
+  background-color: #2cb67d;
+}
+
+input {
+  padding: 3px 0;
+  text-indent: 10px;
+}
+
+.selected {
+  border: 2px solid #2cb67d;
+}

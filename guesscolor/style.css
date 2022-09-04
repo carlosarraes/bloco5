@@ -1,0 +1,77 @@
+.ball {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #094067;
+  color: #ffe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 19.5%;
+}
+section {
+  width: 19.5%;
+}
+
+main {
+  display: flex;
+  gap: 2px;
+}
+
+a {
+  color: #ffe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  text-align: left;
+  margin: 20px auto;
+}
+
+#rgb-color {
+  text-align: center;
+  font-weight: 700;
+  margin: 10px auto;
+  margin-bottom: 25px;
+}
+
+#answer {
+  text-align: center;
+  font-weight: 700;
+  margin: 10px auto;
+  margin-bottom: 10px;
+}
+
+#score {
+  font-size: 2em;
+  text-align: center;
+  margin: 50px 0;
+}
+
+#reset-game {
+  width: 100%;
+  padding: 5px;
+  font-weight: 700;
+  border: 1px solid ghostwhite;
+  background-color: #094067;
+  color: ghostwhite;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+#reset-game:hover {
+  background-color: ghostwhite;
+  color: #094067;
+}
