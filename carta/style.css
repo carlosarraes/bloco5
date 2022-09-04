@@ -81,3 +81,8 @@ input {
   width: 70%;
   padding: 2px 0;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}

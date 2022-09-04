@@ -35,3 +35,8 @@ button:hover {
 input {
   width: 60%;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}

@@ -117,3 +117,9 @@ input {
 .selected {
   border: 2px solid #2cb67d;
 }
+
+.wrapper {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
